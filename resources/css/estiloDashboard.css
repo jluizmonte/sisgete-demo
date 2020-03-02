@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+i {
+	font-size: 14px;
+	color: #fff;
+}
+
+.texto {
+	font-size: 8pt;
+	text-align: right;
+}
+
+.active {
+	padding-top: 30px;
+}
+
+.conta {
+	padding-left: 80px;
+	padding-top: 1px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1px;
+}
+
+.card-notifica {
+	z-index: 1;
+	border: 3px solid #008000;
+}
+
+.card-notifica .list-unstyled li {
+	font-size: 14pt;
+	font: bold;
+	padding: .5rem 0;
+	color: #008000;
+	padding: .5rem 0;
+}
+
+.card-pricing.popular {
+	z-index: 1;
+	border: 3px solid #007bff;
+}
+
+.card-pricing .list-unstyled li {
+	font-size: 14pt;
+	padding: .5rem 0;
+	color: #000000;
+	padding: .5rem 0;
+}
+
+.card {
+	border-radius: 3px;
+}
+
+body {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.625;
+	color: #666;
+	height: 100%;
+	line-height: 1.625
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #333333;
+	font-weight: 700;
+	margin: 0;
+	line-height: 1.2;
+}
+
+span {
+	font-size: 14pt;
+}
+
+.title--sbold {
+	font-weight: 600;
+}
+
+.title-1 {
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.page-wrapper {
+	overflow: hidden;
+}
+
+.page-container {
+	background: #e5e5e5;
+}
+
+.page-container2 {
+	background: #e5e5e5;
+	padding-left: 300px;
+}
+
+.main-content {
+	padding-top: 10px;
+	min-height: 100vh;
+}
+
+.overview-wrap {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.overview-item {
+	border-radius: 10px;
+	padding: 30px;
+	padding-bottom: 0;
+	margin-bottom: 40px;
+}
+
+/* usuarios com acesso */
+.overview-item--c1 {
+	background-color: #000000;
+}
+
+/* acessos ao site*/
+.overview-item--c2 {
+	background-color: #DAA520;
+}
+
+/* produtos em estoque */
+.overview-item--c3 {
+	background-color: #FF00FF;
+}
+
+/*valor gasto*/
+.overview-item--c4 {
+	background-color: #4169E1;
+}
+
+.overview-box .icon {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 15px;
+}
+
+.overview-box .icon i {
+	font-size: 60px;
+	color: #fff;
+}
+
+.overview-box .text {
+	font-weight: 300;
+	display: inline-block;
+}
+
+.overview-box .text h2 {
+	font-weight: 300;
+	color: #fff;
+	font-size: 36px;
+	line-height: 1;
+	margin-bottom: 5px;
+}
+
+.overview-box .text span {
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.overview-chart {
+	height: 115px;
+	position: relative;
+}
+
+.overview-chart canvas {
+	width: 100%;
+}
